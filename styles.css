@@ -75,6 +75,7 @@ button {
   justify-content: center;
   flex-direction: column;
   display: flex;
+  color: white;
 }
 
 #hero .img-col {
@@ -99,8 +100,13 @@ button {
   margin-bottom: 20px;
 }
 
+#about-us p {
+  color: white;
+}
+
 #projects .projects {
   margin-bottom: 50px;
+  color: white;
 }
 
 #contact {
