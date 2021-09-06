@@ -1,13 +1,13 @@
 body {
   display: block;
   overflow-x: hidden;
-  background: #161B33;
+  background: #094680;
 }
 
 /* Navbar */
 
 nav {
-  background-color: #474973;
+  background-color: #2F5980;
 }
 
 .navbar-brand img {
@@ -92,6 +92,7 @@ button {
   box-shadow: 11px 7px 16px #f9f9f9;
   border:0;
   text-align: center;
+  background: #094680;
 }
 
 #hero .icon {
