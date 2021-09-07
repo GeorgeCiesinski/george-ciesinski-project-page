@@ -1,13 +1,29 @@
+:root {
+    --navbar_color: #474973;
+    --navbar_logo_text: white;
+    --navbar_logo_text_highlight: red;
+    --navbar_text: white;
+    --navbar_text_highlight: red;
+    --main-color: white;
+    --main_h1: black;
+    --main_text: black;
+    --card_color: #094680;
+    --card_shadow: #f9f9f9;
+    --footer_color: #474973;
+    --footer-h1: white;
+    --footer_text: white;
+}
+
 body {
   display: block;
   overflow-x: hidden;
-  background: #094680;
+  background: var(--main-color);
 }
 
 /* Navbar */
 
 nav {
-  background-color: #2F5980;
+  background-color: var(--navbar_color);
 }
 
 .navbar-brand img {
@@ -18,19 +34,21 @@ nav {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 900;
-  color: white;
+  color: var(--navbar_logo_text);
+}
+
+.navbar-brand:hover {
+  color: var(--navbar_logo_text_highlight);
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: white;
+    color: var(--navbar_text);
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: #0D0C1D;
+    color: var(--navbar_text_highlight);
 }
-
-
 
 nav ul li a {
   color: #a9a9a9;
@@ -52,7 +70,7 @@ section {
 section h1 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #683aa4;
+  color: var(--main_h1);
   text-align: left;
   margin-bottom: 20px;
 }
@@ -75,7 +93,7 @@ button {
   justify-content: center;
   flex-direction: column;
   display: flex;
-  color: white;
+  color: var(--main_text);
 }
 
 #hero .img-col {
@@ -89,10 +107,10 @@ button {
 }
 
 #hero .card {
-  box-shadow: 11px 7px 16px #f9f9f9;
+  box-shadow: 11px 7px 16px var(--card_shadow);
   border:0;
   text-align: center;
-  background: #094680;
+  background: var(--card_color);
 }
 
 #hero .icon {
@@ -102,21 +120,21 @@ button {
 }
 
 #about-us p {
-  color: white;
+  color: var(--main_text);
 }
 
 #projects .projects {
   margin-bottom: 50px;
-  color: white;
+  color: var(--main_text);
 }
 
 #contact {
   text-align: center;
-  background-color: #474973;
-  color: white;
+  background-color: var(--footer_color);
+  color: var(--footer_text);
 }
 
 #contact h1 {
   text-align: center;
-  color: white;
+  color: var(--footer-h1);
 }
