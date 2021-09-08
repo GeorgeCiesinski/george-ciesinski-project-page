@@ -116,8 +116,8 @@ button {
 }
 
 #hero .img {
-  max-width: 130% !important;
-  width: 130%;
+  max-width: 100% !important;
+  width: 100%;
 }
 
 #hero .card {
@@ -135,6 +135,18 @@ button {
 
 #about-me p {
   color: var(--main_text);
+}
+
+#about-me .img-col {
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+#about-me .img {
+  display: block;
+  max-width: 50% !important;
+  width: 50%;
+  height: auto;
 }
 
 #projects .projects {
