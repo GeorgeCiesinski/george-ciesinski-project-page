@@ -1,15 +1,29 @@
+/*
+Color Palette
+
+white
+black
+#0269B8
+#295C84
+#013D6B
+#3981B8
+#7FAED4
+#397EB7
+#012038
+*/
+
 :root {
-    --navbar_color: #474973;
-    --navbar_logo_text: white;
-    --navbar_logo_text_highlight: red;
-    --navbar_text: white;
-    --navbar_text_highlight: red;
+    --navbar_color: #295C84;
+    --navbar_logo_text: #012038;
+    --navbar_logo_text_highlight: #3981B8;
+    --navbar_text: #012038;
+    --navbar_text_highlight: #3981B8;
     --main-color: white;
-    --main_h1: black;
-    --main_text: black;
-    --card_color: #094680;
-    --card_shadow: #f9f9f9;
-    --footer_color: #474973;
+    --main_h1: #013D6B;
+    --main_text: #012038;
+    --card_color: #7FAED4;
+    --card_shadow: #397EB7;
+    --footer_color: #295C84;
     --footer-h1: white;
     --footer_text: white;
 }
@@ -126,6 +140,10 @@ button {
 #projects .projects {
   margin-bottom: 50px;
   color: var(--main_text);
+}
+
+#projects .card {
+  background: var(--card_color);
 }
 
 #contact {
