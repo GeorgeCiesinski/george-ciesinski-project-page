@@ -103,6 +103,11 @@ button {
 
 /* Hero */
 
+#hero a {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+
 #hero .col {
   justify-content: center;
   flex-direction: column;
@@ -137,6 +142,11 @@ button {
   color: var(--main_text);
 }
 
+#about a {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+
 #about .img-col {
   justify-content: flex-end;
   margin-top: 50px;
@@ -150,6 +160,7 @@ button {
 }
 
 #projects .projects {
+  padding-top: 75%px;
   margin-bottom: 50px;
   color: var(--main_text);
 }
