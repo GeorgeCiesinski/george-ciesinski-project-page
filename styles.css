@@ -5,26 +5,31 @@ white
 black
 #0269B8
 #295C84
+#0D314A
 #013D6B
 #3981B8
+#377EB3
 #7FAED4
 #397EB7
 #012038
 */
 
 :root {
-    --navbar_color: #295C84;
-    --navbar_logo_text: #012038;
-    --navbar_logo_text_highlight: #3981B8;
-    --navbar_text: #012038;
-    --navbar_text_highlight: #3981B8;
+    --navbar_color: #0D314A;
+    --navbar_logo_text: #5B9BCD;
+    --navbar_logo_text_highlight: #96BFDE;
+    --navbar_text: #5B9BCD;
+    --navbar_text_highlight: #96BFDE;
+    --navbar_dropdown: #295C84;
+    --navbar_dropdown_text: #BDD4EA;
+    --navbar_dropdown_hover: #0D314A;
     --main-color: white;
-    --main_h1: #013D6B;
+    --main_h1: #0D314A;
     --main_text: #012038;
-    --card_color: #7FAED4;
-    --card_shadow: #397EB7;
-    --footer_color: #295C84;
-    --footer-h1: white;
+    --card_color: #5B9BCD;
+    --card_shadow: #0D314A;
+    --footer_color: #0D314A;
+    --footer-h1: #5B9BCD;
     --footer_text: white;
 }
 
@@ -56,12 +61,24 @@ nav {
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: var(--navbar_text);
+  color: var(--navbar_text);
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: var(--navbar_text_highlight);
+  color: var(--navbar_text_highlight);
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: var(--navbar_dropdown);
+}
+
+.navbar-nav > li > .dropdown-menu a{
+  color: var(--navbar_dropdown_text);
+}
+
+.navbar-nav > li > .dropdown-menu a:hover {
+  background-color: var(--navbar_dropdown_hover);
 }
 
 nav ul li a {
