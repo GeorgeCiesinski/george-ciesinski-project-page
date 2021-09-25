@@ -112,7 +112,7 @@ section p {
 /* Hero */
 
 #hero a {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 #hero .btn {
@@ -186,6 +186,15 @@ section p {
   max-width: 50% !important;
   width: 50%;
   height: auto;
+}
+
+#about .btn {
+  background-color: var(--navbar_color);
+  color: var(--navbar_logo_text);
+}
+
+#about .btn:hover {
+  color: var(--navbar_text_highlight);
 }
 
 /* Projects */
