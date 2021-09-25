@@ -75,10 +75,12 @@ nav {
 
 .navbar-nav > li > .dropdown-menu a{
   color: var(--navbar_dropdown_text);
+  margin: auto 0px !important;
 }
 
 .navbar-nav > li > .dropdown-menu a:hover {
   background-color: var(--navbar_dropdown_hover);
+  margin: auto 0px !important;
 }
 
 nav ul li a {
