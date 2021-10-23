@@ -172,6 +172,7 @@ section p {
   border:0;
   text-align: center;
   background: var(--card_color);
+  margin-top: 1;
 }
 
 #hero .icon {
