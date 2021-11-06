@@ -41,6 +41,23 @@ body {
 
 /* Navbar */
 
+@media only screen and (max-width: 850px)
+  .container > .navbar-brand .logo {
+     font-size: 20px;
+     display: inline-block;
+}
+
+@media only screen and (max-width: 850px)
+  .navbar-dark, .navbar-toggler {
+    position: absolute;
+    top: 18px;
+}
+
+@media only screen and (max-width: 850px)
+  .navbar-brand > img {
+    margin-right: 1rem;
+}
+
 nav {
   background-color: var(--navbar_color);
 }
