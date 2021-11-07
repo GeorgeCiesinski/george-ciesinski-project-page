@@ -49,7 +49,7 @@ body {
 
   .navbar-toggler {
     position: absolute;
-    top: 0px;
+    top: 18px;
     right: 0px;
     border-color: none;
   }
