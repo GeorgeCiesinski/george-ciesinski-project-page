@@ -41,7 +41,7 @@ body {
 
 /* Navbar */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 850px) {
   .container > .navbar-brand .logo {
     font-size: 1rem;
     display: inline-block;
@@ -54,7 +54,8 @@ body {
     border-color: none;
   }
   .navbar-brand > img {
-    margin-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
   }
 }
 
