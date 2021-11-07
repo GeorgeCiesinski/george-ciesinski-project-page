@@ -49,13 +49,12 @@ body {
 
   .navbar-toggler {
     position: absolute;
-    top: 18px;
-    right: 0px;
+    top: auto;
+    right: 25px;
     border-color: none;
   }
   .navbar-brand > img {
-    margin-left: 0rem;
-    margin-right: 1rem;
+    margin-right: 0rem;
   }
 }
 
